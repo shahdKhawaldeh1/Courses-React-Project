@@ -1,0 +1,36 @@
+.subtopics {
+    background-color: var(--bg_default);
+    margin-top: 20px;
+    width: 500px;
+    border: 1px solid var(--lines-color);
+    border-radius: 5px;
+    color: var(--body-text);
+    align-items: center;
+}
+.subtopics .subtopic-icon{
+    color: #27b185;
+    margin: 8px 8px 8px 25px;
+    font-size: 20px ;
+    vertical-align: middle;
+    align-items: center;
+    
+}
+.subtopics ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subtopics li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--lines-color);
+}
+
+.subtopics li:last-child {
+    border-bottom: none;
+}
+
+.subtopics h2 {
+    font-size: 24px;
+    padding: 11px 11px 11px 25px;
+    border-bottom: 1px solid var(--lines-color);
+}

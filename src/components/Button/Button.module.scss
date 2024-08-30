@@ -1,0 +1,30 @@
+.button{
+    border: 0.5px solid var(--lines-color);
+    border-radius: 5px;
+    background-color: var(--bg_default);
+    padding: 5px;
+    cursor: pointer;
+    color: var(--body-text);}
+.button span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    
+}
+.button:last-child{
+    margin-left: 6px;
+}
+
+.button-icon {
+    font-size: 16px;
+    margin-right: 5px;
+    margin-top: 2.2px;
+}
+@media only screen and (max-width:768px){
+    .button span{
+        display: none;
+    }
+    .button-icon{
+        margin: 0 auto;
+    }
+}

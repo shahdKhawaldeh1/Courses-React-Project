@@ -1,0 +1,25 @@
+.favourites-container{
+    background-color: var(--bg_default);
+    position: sticky;
+    z-index: 10;
+    padding: 20px;
+    width: 100%;
+    bottom: 0; 
+    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 -2px 4px -1px rgba(0, 0, 0, 0.06);   
+}
+.favorite-list{  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 13px;
+    padding: 0;
+    justify-content: space-between;
+
+}
+.fav-topics{
+    font-size: 16px;
+    color: var(--body-text);
+    margin-bottom: 15px;
+    font-weight: 700;
+    
+}

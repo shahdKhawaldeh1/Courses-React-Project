@@ -1,0 +1,15 @@
+.main{
+    flex:1;
+    background-color: var(--bg_body)}
+.details-section{
+    height: auto;
+    background-color: var(--details-bg);
+    position: relative;
+    padding: 16px 16px 16px 0px;}
+.body-container-details{
+    max-width: 900px;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}

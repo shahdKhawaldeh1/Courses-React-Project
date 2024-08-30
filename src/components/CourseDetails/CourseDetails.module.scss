@@ -1,0 +1,22 @@
+.details{
+    margin-top: 12px;
+    color: var(--details-color);  
+    padding: 0 10px;
+    flex:1; /**/
+}
+.detail-category{
+    color: var(--brand-secondary);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.detail-description{
+    width: 60%;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;}
+
+.detail-rating{
+    color: var(--star-color);
+    margin-bottom: 12px;
+}

@@ -1,0 +1,93 @@
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid var(--lines-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #4242420a;
+    background-color: var(--bg_default);
+    color: var(--body-text);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+.search{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    gap: 10px;}
+.search input {
+    border: none;
+    /*width: 100%;*/
+    background-color: var(--bg_default);
+    font-size: 15px;}
+.sort-filter{
+    display: flex;
+    border: 0px solid var(--lines-color);}
+.dropdown{
+    border-left:1px solid var(--lines-color);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px ;
+    background-color: var(--bg_default);
+    padding: 4px;
+    width: 200px;}
+
+select{
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: var(--bg_default);
+    color: var(--body-text);
+    width: 100%;}
+
+input:focus{
+        outline: none;
+    }
+ select:focus{
+        outline: none;
+    }
+.labels{
+    font-size: 14px;
+    font-weight: 400;
+}
+@media only screen and (max-width:768px){
+    .search-bar{
+        flex-direction: column;
+    }
+    .search-bar .search{
+        border-bottom: 1px solid var(--lines-color);
+        width: 100%;
+        box-sizing: border-box;
+        padding: 16px 10px;
+        margin: 0;
+    }
+    .search-bar .sort-filter #sort-by {
+        border-left: none;
+        border-bottom: 0px solid var(--lines-color);
+        border-radius: 10px;
+
+    }
+    .search-bar .sort-filter .dropdown{
+        width: 50%;
+        border-left: none;
+
+    }
+    .search-bar .sort-filter .dropdown:nth-child(1){
+        border-bottom-left-radius:10px ;
+    }
+    .search-bar .sort-filter .dropdown .filter-by{
+        border-left: 0.5px solid var(--lines-color) ;  
+    }
+    .search-bar .sort-filter .dropdown label{
+        font-size: 11px ;
+        font-weight: 200;
+    }
+    .search-bar .sort-filter .dropdown select{
+        font-size: 13px ;
+    }
+    .search-bar .sort-filter .dropdown:nth-child(2){
+        border-left:1px solid var(--lines-color);
+    }
+
+}
+    

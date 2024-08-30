@@ -1,0 +1,44 @@
+.card{
+    color: var(--body-text);}
+.card{
+    border: 0px solid var(--lines-color) ;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01);
+    background-color: var(--bg_default);}
+.card-link{
+    text-decoration: none;}
+.card:hover {
+    transform: scale(1.02);
+    cursor: pointer !important;}
+.card .info{
+    margin-top: 10px;
+    margin-left: 12px;}
+.card .card-image{
+    width: 100%;
+    /*height: auto;*/
+    height: 150px;
+    object-fit: cover;}
+.card h6{
+    color: var(--author-color);
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 16px;}
+.card h3{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card .stars{
+    margin-top: 23px;
+    margin-bottom: 8px;
+    color: var(--star-color);}
+.card .info .category{
+    font-size: 11px ;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}

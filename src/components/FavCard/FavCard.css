@@ -1,0 +1,30 @@
+
+.favorite-title{
+    color: var(--body-text);
+    font-size: 15px;}
+.favorite-image {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;}
+.favorite-card{
+    border: 0px solid var(--lines-color) ;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.info{
+    padding: 8px;
+}
+.favorite-rating{
+    color: var(--star-color);
+}
+.card-link{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:768px){
+    .favorites-section .favorite-list{
+        gap: 15px;
+    }
+}
